@@ -1,0 +1,15 @@
+#include <iostream>
+/*
+1) int *ptr = (int*)malloc(sizeof(int)) - int *numbers {new int[4]};
+2) int *ptrArr = (int*)malloc(sizeof(int)*N) - int **matrix = new int* [n]
+3) free(ptr) - delete[ptr]
+4) free(ptrArr) - 
+int ** mas = new int * [N];
+for (int i=0; i<N; i++) mas[i]=new int [M];
+...
+for (int i=0; i<N; i++) delete [] mas[i];
+delete [] mas;
+*/
+int main()
+{
+}
